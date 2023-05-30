@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fourth Project</string>
+    <string name="enter_email">Введите email адресс</string>
+    <string name="enter_password">Введите пароль</string>
+    <string name="login">войти</string>
+    <string name="new_user_register">Новый пользователь? Регистрация</string>
+    <string name="write_your_email">Напишите email адресс</string>
+    <string name="write_password">Напишите пароль</string>
+    <string name="welcome">Добро пожаловать, </string>
+    <string name="email_or_password_is_wrong">Email или пароль неверный</string>
+</resources>

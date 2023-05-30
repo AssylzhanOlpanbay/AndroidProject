@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fourth Project</string>
+    <string name="enter_email">Email енгізіңіз</string>
+    <string name="enter_password">Құпия сөз енгізіңіз</string>
+    <string name="login">кіру</string>
+    <string name="new_user_register">Жаңа пайдаланушы? Тіркелу</string>
+    <string name="write_your_email">Email енгізіңіз</string>
+    <string name="write_password">Құпия сөз енгізіңіз</string>
+    <string name="welcome">Қош келдіңіз, </string>
+    <string name="email_or_password_is_wrong">Email немесе құпия сөз қате!</string>
+</resources>

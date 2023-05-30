@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.NewChat">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/users_photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/account"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            tools:ignore="DuplicateIds,MissingClass"/>
+
+        <TextView
+            android:id="@+id/users_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yedil Agai"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/users_photo"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/users_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+77073279073"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/users_photo"
+            android:layout_below="@+id/users_name"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/users_photo2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/account"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            tools:ignore="DuplicateIds,MissingClass"/>
+
+        <TextView
+            android:id="@+id/users_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Davronbek Abi"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/users_photo2"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/users_phoneNumber2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+77074345465"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/users_photo2"
+            android:layout_below="@+id/users_name2"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/users_photo3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/account"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"
+            tools:ignore="DuplicateIds,MissingClass"/>
+
+        <TextView
+            android:id="@+id/users_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Didar"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:layout_toRightOf="@+id/users_photo3"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/users_phoneNumber3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+77766373705"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:layout_toRightOf="@+id/users_photo3"
+            android:layout_below="@+id/users_name3"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/users_photo4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/account"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                tools:ignore="DuplicateIds,MissingClass"/>
+
+            <TextView
+                android:id="@+id/users_name4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dias"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_toRightOf="@+id/users_photo4"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/users_phoneNumber4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+77075483102"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/users_photo4"
+                android:layout_below="@+id/users_name4"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/users_photo5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/account"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"
+                tools:ignore="DuplicateIds,MissingClass"/>
+
+            <TextView
+                android:id="@+id/users_name5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sam"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:layout_toRightOf="@+id/users_photo5"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/users_phoneNumber5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+77085826228"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_toRightOf="@+id/users_photo5"
+                android:layout_below="@+id/users_name5"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25dp">
+
+            <Button
+                android:id="@+id/btn_call"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call_icon"
+                app:backgroundTint="@null"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/btn_sms"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sms_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/btn_call2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_sms2"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sms_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/btn_call3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_sms3"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sms_icon"
+                app:backgroundTint="@null"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/btn_call4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_sms4"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sms_icon"
+                app:backgroundTint="@null"
+                tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="45dp">
+
+            <Button
+                android:id="@+id/btn_call5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/call_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <Button
+                android:id="@+id/btn_sms5"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/sms_icon"
+                app:backgroundTint="@null"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/camera_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/camera_icon"
+        app:backgroundTint="@null"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>
